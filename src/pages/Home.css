@@ -1,0 +1,65 @@
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e8f5e9 0%, #f5f5f5 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card {
+  background: rgba(255,255,255,0.97);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(60, 80, 60, 0.12), 0 1.5px 8px rgba(60, 80, 60, 0.08);
+  padding: 2.5rem 2rem;
+  max-width: 420px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.home-logo {
+  width: 70px;
+  margin-bottom: 1rem;
+}
+
+.home-card h1 {
+  color: #0caa41;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.home-card p {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.home-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.home-btn {
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(90deg, #0caa41 60%, #43e97b 100%);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.08);
+}
+
+.home-btn-outline {
+  background: #fff;
+  color: #0caa41;
+  border: 2px solid #0caa41;
+}
+
+.home-btn:hover,
+.home-btn-outline:hover {
+  filter: brightness(0.95);
+  box-shadow: 0 4px 16px rgba(76, 175, 80, 0.12);
+}
